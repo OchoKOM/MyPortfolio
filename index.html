@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Porfolio</title>
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="./font-awesome.css">
+    <!-- <script src="font-awesome.js"></script> -->
+    <!-- custom style  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- email JS -->
+    <script type="text/javascript" src="./email.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="user">
+            <img src="img/Me.jpg" alt="">
+            <h3 class="name">Martin Ocho</h3>
+            <p class="post">web developer</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home" class="active">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#education">education</a></li>
+                <li><a href="#project">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="menu">
+        <div class="logo">
+            <a href="#"><span>A</span>Dev</a>
+        </div>
+        <div class="left">
+            <div class="toggle-bars">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <i class="fa fa-moon" id="them-btn"></i>
+            <i class="fa fa-palette" id="color-btn"></i>
+        </div>
+        <div class="colors">
+            <h3>Choose color</h3>
+            <div class="color" style="background:#2980b9;"></div>
+            <div class="color" style="background:#27ae60;"></div>
+            <div class="color" style="background:#ec1839;"></div>
+            <div class="color" style="background:#FF00FF;"></div>
+            <div class="color" style="background:#FF1493;"></div>
+            <div class="color" style="background:#0fb9b1;"></div>
+            <div class="color" style="background:#e84393;"></div>
+            <div class="color" style="background:#FFA500;"></div>
+            <div class="color" style="background:#581cd2;"></div>
+        </div>
+    </div>
+
+    <section class="home" id="home">
+        <div class="left">
+            <h3 class="hello">
+                Hello, My name is <span class="my-name">MartinOcho</span>
+            </h3>
+            <h3 class="profession">
+                I'm a<span class="typing">Web Designer</span>
+            </h3>
+            <p>
+                I'm a web designer with extensive experience for over 4 years. My
+                expertise is to create and website design, and many more....
+            </p>
+            <a href="#" class="btn hire-me">Hire Me</a>
+        </div>
+        <div class="right">
+            <div class="box">
+               <img src="img/Dev-carton.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h1 class="title">About Me</h1>
+        <div class="about-top">
+            <h3 class="top">I'm kham and <span>web Desginer</span></h3>
+            <p>
+                I like web development, I learned web development in six months
+                and I perfectionned it in one year. Since I started with web development, 
+                I took the opportunity to also learn others programming languages such as
+                python, C++, C# and Java; the web languages I have learned and mastered are
+                HTML, CSS, JavaScript(Frameworks : jQuery, React, Vue) and PHP(Frameworks : Laravel);
+            </p>
+        </div>
+        <div class="about-row">
+            <div class="row-left">
+                <ul class="box">
+                    <li>
+                        <span>Birthday:</span>
+                        <p>13 April 2004</p>
+                    </li>
+                    <li>
+                        <span>Website:</span>
+                        <p>www.ochokom.com</p>
+                    </li>
+                    <li>
+                        <span>Degree:</span>
+                        <p>Conmuter Science</p>
+                    </li>
+                </ul>
+                <ul class="box">
+                    <li>
+                        <span>Email:</span>
+                        <p>martinkababo@gmail.com</p>
+                    </li>
+                    <li>
+                        <span>Phone:</span>
+                        <p>+000 111 222 333</p>
+                    </li>
+                    <li>
+                        <span>Freelancer:</span>
+                        <p>Availiable</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="row-right">
+                <ul class="skills">
+                    <li><span>HTML</span> <span>50%</span></li>
+                    <li><span>CSS</span> <span>60%</span></li>
+                    <li><span>JavaScript</span> <span>40%</span></li>
+                    <li><span>PHP</span> <span>30%</span></li>
+                    <li><span>React js</span> <span>50%</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="about-buttom">
+            <a href="./cv.pdf" class="btn cv" download> Download CV </a>
+        </div>
+    </section>
+    <!-- Education  -->
+    <section class="education" id="education">
+        <h1 class="title">My Education</h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2016</span>
+                <h3>Started</h3>
+                <p>
+                    I was still at the institute and it was the year of my first 
+                    lines of code in "notepad++" code editor. It was the start
+                    of a great adventure
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2017</span>
+                <h3>My first projects</h3>
+                <p>
+                    I started directly with lots of mini projects, that was how 
+                    I learned during practice to complete theories that I 
+                    learned
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2018</span>
+                <h3>Independent</h3>
+                <p>
+                    I started independant learning because we had almost no curses on
+                    programming at school, thats when I started to advance my learning
+                    very quickly
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2019</span>
+                <h3>JavaScript</h3>
+                <p>
+                    I started studying JavaScript it was a little hard to understand
+                    at first but I got used to it and improved
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2020</span>
+                <h3>The PHP language</h3>
+                <p>
+                    I discovered the PHP server language and learned it in five months,
+                    it was a very easy language to learn from start to finish
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2021</span>
+                <h3>Other languages and frameworks</h3>
+                <p>
+                    I learned laravel(PHP framework) and JavaScript frameworks
+                    (React, jQuery and Vue). I started to focus on other languages
+                    as well like Python, C#, C++ and Java
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="project" id="project">
+        <h3 class="title">Projects</h3>
+        <div class="pro-container">
+            <div class="box">
+                <div class="img-box">
+                    <img src="img/portfolio/portfolio-1.jpg" alt="">
+                    <div class="overlay">
+                        <a href="https://ochokom.github.io/Restaurant-website/" class="demo">Demo</a>
+                        <a href="https://github.com/OchoKOM/Restaurant-website/" class="demo">Code</a>
+                    </div>
+                </div>
+                <div class="detail">
+                    <h4>Restaurant website</h4>
+                    <p>We offer our clients excellent quality services for many years, 
+                    with the best and delicious food in the city</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <img src="img/portfolio/portfolio-2.jpg" alt="">
+                    <div class="overlay">
+                        <a href="https://ochokom.github.io/Travel-website/" class="demo">Demo</a>
+                        <a href="https://github.com/OchoKOM/Travel-website" class="demo">Code</a>
+                    </div>
+                </div>
+                <div class="detail">
+                    <h4>Travel website</h4>
+                    <p>You can find the most beautiful and pleasant places at the best prices with special discounts,
+                    you choose the place we will guide you all the way to wait, get your place now.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <img src="img/portfolio/portfolio-3.jpg" alt="">
+                    <div class="overlay">
+                        <a href="https://ochokom.github.io/Christmas-website/" class="demo">Demo</a>
+                        <a href="https://github.com/OchoKOM/Christmas-website/" class="demo">Code</a>
+                    </div>
+                </div>
+                <div class="detail">
+                    <h4>Christmas website</h4>
+                    <p>Christmas and a new year is about to begin, all good wishes and successes.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <img src="img/portfolio/portfolio-4.jpg" alt="">
+                    <div class="overlay">
+                        <a href="https://ochokom.github.io/Headphone-website/" class="demo">Demo</a>
+                        <a href="https://github.com/OchoKOM/Headphone-website" class="demo">Code</a>
+                    </div>
+                </div>
+                <div class="detail">
+                    <h4>Headphone website</h4>
+                    <p>Streamlined design with comfortable padded earphones, delivering first-rate playback.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <img src="img/portfolio/portfolio-5.jpg" alt="">
+                    <div class="overlay">
+                        <a href="https://ochokom.github.io/Watches-website/" class="demo">Demo</a>
+                        <a href="https://github.com/OchoKOM/Watches-website/" class="demo">Code</a>
+                    </div>
+                </div>
+                <div class="detail">
+                    <h4>Watches website</h4>
+                    <p>The latest and modern watches of this year, is available in various presentations in this store, 
+                    discover them now.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <img src="img/portfolio/portfolio-6.jpg" alt="">
+                    <div class="overlay">
+                        <a href="https://github.com/OchoKOM?tab=repositories" class="demo">See more on GitHub</a>
+                    </div>
+                </div>
+                <div class="detail">
+                    <h4>See more</h4>
+                    <p>I have several others projects in progress and finished</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="contact" id="contact">
+        <h3 class="title">Contact</h3>
+        <div class="con-container">
+            <div class="left">
+                <iframe
+                    src="https://maps.google.com/maps?q=Kinshasa&t=&z=12&ie=UTF8&iwloc=&output=embed"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="right">
+                <form action="">
+                    <input type="text" placeholder="Name" id="name" required>
+                    <input type="email" placeholder="example@xyz.com" id="email" required>
+                    <input type="number" max="999999999999"placeholder="+000 111 222 333" id="number" required>
+                    <textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <input type="submit" value="Send" class="btn submit">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="f-container">
+            <div class="box">
+                <h3>Follow Me</h3>
+                <ul class="links">
+                    <li><a href="https://web.facebook.com/profile.php?id=100086762777383"><i class="fab fa-facebook"></i>Facebook</a></li>
+                    <li><a href="https://www.tiktok.com/@ochouchiwa"><i class="fab fa-tiktok"></i>Tiktok</a></li>
+                    <li><a href="https://github.com/OchoKOM"><i class="fab fa-github"></i>Github</a></li>
+                    <li><a href="https://www.youtube.com/@ochokom/featured"><i class="fab fa-youtube"></i>Youtube</a></li>
+                    <li><a href="https://www.instagram.com/ocho_martin/"><i class="fab fa-instagram"></i>Instagram</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Quick links</h3>
+                <ul class="links">
+                    <li><a href="#home"><i class="fas fa-home"></i>home</a></li>
+                    <li><a href="#about"><i class="fas fa-user"></i>about</a></li>
+                    <li><a href="#education"><i class="fas fa-graduation-cap"></i>education</a></li>
+                    <li><a href="#project"><i class="fas fa-list-ul"></i>project</a></li>
+                    <li><a href="#contact"><i class="fas fa-comments"></i>contact</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Contact info</h3>
+                <ul class="links">
+                    <li><a href="#"><i class="fas fa-envelope"></i> martinkababo@gmail.com</a></li>
+                    <li><a href="#"><i class="fas fa-phone" id="rotate"></i> +243-813-673-218</a></li>
+                    <!-- <li><a href=""><i class="fas fa-phone" id="rotate"></i> +856-2098417645</a></li> -->
+                    <li><a href="#"><i class="fas fa-map-marker-alt"></i> Congo CD, Kinshasa</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="f-bottom">
+            <h3><span>© copyright:</span> OchoKOM <span>2023-2024</span> Allright reserved</h3>
+        </div>
+
+    </footer>
+
+     <!-- load section for web -->
+     <div class="loader-container">
+        <!-- <h2>loading...</h2> -->
+        <img src="img/Loading_icon.gif">
+    </div>
+    <!-- send message to gmail by using  Emailjs-->
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("dsddsfdsferfe");
+        })();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
